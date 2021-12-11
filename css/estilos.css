@@ -37,7 +37,7 @@ body{
 
 #seccion{
 	background-color: #8c8c8c;
-	width: auto;
+	width: 1207px;
 	height: 320px;
 }
 
@@ -58,10 +58,12 @@ body{
 #servicios{
 	background-color: #282627!important;
 	
-	height: 400px;
-	width: auto;
+	/*height: 400px;
+	width: auto;*/
 
 }
+
+
 
 
 
