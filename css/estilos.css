@@ -42,24 +42,28 @@ body{
 }
 
 /*proyectos*/
+
+
+/*servicios*/
 #servfond{
-	background-image: url('../img/verde.jpg');
+	background-image: url('../img/jhgv.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
 	height: 500px;
 	width: auto;
+	opacity: 5rem
 }
 
 #servicios{
-	background-color: pink!important;
+	background-color: #282627!important;
 	
-	height: 300px;
+	height: 400px;
 	width: auto;
+
 }
 
 
-/*servicios*/
 
 /*servicios*/
 
