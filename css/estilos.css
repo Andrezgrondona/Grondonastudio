@@ -1,0 +1,78 @@
+body{
+	background-color: black;
+}
+
+/*nav bar*/
+.bg-light{
+	background-color: gray!important;
+}
+/*nav bar*/
+
+/*index*/
+#banner{
+	background-image: url('../img/TopImage.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	height: 500px;
+	width: auto;
+}
+
+.carsd{
+	background-color: pink!important;
+	
+	height: 400px;
+	width: auto;
+}
+/*index*/
+
+
+
+
+/*proyectos*/
+.border-primary{
+	color:    pink !important;
+
+}
+
+#seccion{
+	background-color: #8c8c8c;
+	width: auto;
+	height: 320px;
+}
+
+/*proyectos*/
+#servfond{
+	background-image: url('../img/verde.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	height: 500px;
+	width: auto;
+}
+
+#servicios{
+	background-color: pink!important;
+	
+	height: 300px;
+	width: auto;
+}
+
+
+/*servicios*/
+
+/*servicios*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*index*/
