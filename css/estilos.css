@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	background-color: white;
 }
 
 /*nav bar*/
@@ -14,15 +14,20 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
-	height: 500px;
+	height: 400px;
 	width: auto;
 }
 
-.carsd{
-	background-color: pink!important;
+#fontex{
+	background-color: white !important;
 	
 	height: 400px;
 	width: auto;
+}
+
+#footer{
+	background-color: gray !important;
+
 }
 /*index*/
 
@@ -41,18 +46,20 @@ body{
 	height: 320px;
 }
 
+.img-cont:hover{transform: scale(1.2);
+	z-index: 2
+	}
+
 /*proyectos*/
 
 
 /*servicios*/
-#servfond{
-	background-image: url('../img/jhgv.jpg');
+#bannerserv{
+	background-image: url('../img/1221.jpg');
+	width: 1207px;
+	height: 320px;
 	background-repeat: no-repeat;
 	background-position: center;
-	position: relative;
-	height: 500px;
-	width: auto;
-	opacity: 5rem
 }
 
 #servicios{
@@ -63,11 +70,19 @@ body{
 
 }
 
-
-
-
-
 /*servicios*/
+
+/*nosotros*/
+#bannernos{
+	background-image: url('../img/eng123.jpg');
+	width: 1207px;
+	height: 320px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*nosotros*/
+
 
 
 
