@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,300;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* line 1, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+body {
+  background-color: white;
+}
+
+/*-------.--------.-----------.---------.-----.-----.*/
+/*nav bar*/
+/* line 13, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.bg-light {
+  background-color: gray !important;
+}
+
+/*-------.--------.-----------.---------.-----.-----.*/
+/*index*/
+/* line 20, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#banner {
+  background-image: url("../img/TopImage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 400px;
+  width: auto;
+}
+
+/* line 29, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#fontex {
+  background-color: white !important;
+  height: 400px;
+  width: auto;
+}
+
+/* line 36, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#footer {
+  background-color: gray !important;
+  height: 200px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+/* line 47, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#footer .t_1 {
+  font-family: "Bebas Neue", cursive !important;
+  font-size: 40px;
+  color: white;
+}
+
+/* line 54, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#footer .t_2 {
+  font-family: "Nunito", cursive !important;
+  font-size: 15px;
+  color: white;
+}
+
+/* line 60, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#footer .t_3 {
+  font-family: "Bebas Neue", cursive !important;
+  font-size: 20px;
+  color: white;
+}
+
+/* line 67, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#footer .t_4 {
+  font-family: "Nunito", cursive !important;
+  font-size: 15px;
+  color: white;
+}
+
+/* line 76, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#footer .container_dos {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: center;
+}
+
+/* line 86, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#footer .informacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: "Bebas Neue", cursive !important;
+  font-size: 20px;
+  color: white;
+}
+
+/* line 99, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.bg-warning {
+  background-color: #fbf9f8 !important;
+}
+
+/* line 103, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.h1 {
+  font-family: 'Nunito', sans-serif ital !important;
+  font-weight: 300 !important;
+}
+
+/*index*/
+/*-------.--------.-----------.---------.-----.-----.*/
+/*proyectos*/
+/* line 118, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.border-primary {
+  color: pink !important;
+}
+
+/* line 122, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#seccion {
+  background-color: #8c8c8c;
+  width: 1207px;
+  height: 320px;
+}
+
+/* line 128, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.img-cont:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+/* line 131, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#texto-proy {
+  background-color: none;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+/* line 138, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#texto-proy p {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  text-align: center;
+}
+
+/* line 149, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#texto-proy .palabra-uno {
+  font-family: "Bebas Neue", cursive !important;
+  font-weight: 10px;
+}
+
+/* line 160, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#grids.cuadricula {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  background-color: #fbf9f8;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 175, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.rej-1 {
+  grid-area: 1 / 1 / 9 / 7;
+  background-image: url("../img/imagen.7.jpg");
+  height: 405px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 183, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.rej-2 {
+  grid-area: 1 / 7 / 5 / 10;
+  background-color: none;
+  height: 200px;
+}
+
+/* line 188, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.rej-3 {
+  grid-area: 5 / 7 / 9 / 10;
+  background-image: url("../img/imagen.4.jpg");
+  height: 405px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 196, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.rej-4 {
+  grid-area: 1 / 10 / 5 / 13;
+  background-image: url("../img/imagen.1.png");
+  height: 405px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 204, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.rej-5 {
+  grid-area: 5 / 10 / 9 / 13;
+  background-color: none;
+  height: 200px;
+}
+
+/* line 208, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.rej-6 {
+  grid-area: 9 / 7 / 13 / 13;
+  background-image: url("../img/imagen.2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 216, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.rej-7 {
+  grid-area: 9 / 3 / 13 / 7;
+  background-color: none;
+  height: 200px;
+}
+
+/* line 220, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.rej-8 {
+  grid-area: 9 / 1 / 13 / 3;
+  background-image: url("../img/HGH.jpg");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 228, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.txt-rej-uno {
+  font-size: 25px;
+}
+
+/* line 232, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.txt-rej-dos {
+  font-size: 15px;
+}
+
+/*proyectos*/
+/*-------.--------.-----------.---------.-----.-----.*/
+/*servicios*/
+/* line 245, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.diagrama {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding-top: 0px;
+}
+
+/* line 255, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.cuadro-uno {
+  grid-area: 2 / 2 / 7 / 12;
+  background-image: url("../img/original-b737fc66ab10d880055154af054a2f87.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: auto;
+  z-index: -100;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+}
+
+/* line 271, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.cuadro-uno p {
+  color: white;
+  font-size: 40px;
+}
+
+/* line 280, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.cuadro-dos {
+  grid-area: 5 / 3 / 8 / 5;
+  background-color: #b9adad;
+  height: 200px;
+  z-index: 100;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  margin: 0px;
+}
+
+/* line 295, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.palabra-uno {
+  font-size: 30px;
+}
+
+/* line 299, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.palabra-dos {
+  font-size: 20px;
+}
+
+/* line 303, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.cuadro-tres {
+  grid-area: 5 / 6 / 8 / 8;
+  background-color: #b9adad;
+  height: 200px;
+  z-index: 100;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  margin: 0px;
+}
+
+/* line 318, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.cuadro-cuatro {
+  grid-area: 5 / 9 / 8 / 11;
+  background-color: #b9adad;
+  height: 200px;
+  z-index: 100;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  margin: 0px;
+}
+
+/* line 334, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.cuadro-cinco {
+  grid-area: 7 / 2 / 13 / 12;
+  background-image: url("../img/jhgv.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  z-index: -100;
+}
+
+/*.cuadro-seis { grid-area: 9 / 8 / 13 / 11;;
+background-color: purple;
+height: 120px;
+}*/
+/* line 350, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+.cuadro-siete {
+  grid-area: 8 / 3 / 13 / 7;
+  background: none;
+  height: 300px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  margin: 0px;
+}
+
+/*servicios*/
+/*-------.--------.-----------.---------.-----.-----.*/
+/*nosotros*/
+/* line 370, ../../../../../../../../../../../../../Users/andres/Documents/CODER HOUSE/DESARROLLO WEB /Andres Grondona - Proyecto/Andres Grondona Entrega Sas I/scss/_index.scss */
+#bannernos {
+  background-image: url("../img/eng123.jpg");
+  width: 1207px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*nosotros*/
+
+/*# sourceMappingURL=style.css.map */
