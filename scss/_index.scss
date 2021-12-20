@@ -99,7 +99,18 @@ font-family :'Nunito', cursive!important;
   
  }
 
-}
+ @media (max-width: 600px){
+    width: autopx;
+	height: 560px;
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap-reverse;
+	justify-content:flex-start;
+	text-align:center;
+ }
+
+
+ }
 
 .bg-warning{
 	background-color:$fondoclaro !important;
@@ -124,10 +135,41 @@ font-family :'Nunito', cursive!important;
 	height: 320px;
 }
 
+#img1{
+		background-image: url("../img/_88A6156.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 300px;
+		width: 1140px;
+		margin-left: 70px;
+
+ @media (max-width: 600px){
+ 	background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 300px;
+		width: 450px;
+
+	display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-items:center;
+  align-content:flex-start; 
+
+ }
+ 
+
+	
+}
+	
+  
+
 .img-cont:hover{transform: scale(1.2);
 	z-index: 2
 	}
-#texto-proy{
+    #texto-proy{
 	background-color: none;
 	margin-left: 70px;
 	margin-right: 70px;
@@ -148,11 +190,21 @@ font-family :'Nunito', cursive!important;
 	.palabra-uno{
 	font-family :'Bebas Neue', cursive!important;
 	font-weight: 10px;
-
-    
-	}
+  
+	}	
 }
 
+#cuatroimagenes{
+	 @media (max-width: 600px){
+    display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items:center;
+  align-content:center;
+
+ }
+}
 
 
 
@@ -168,8 +220,16 @@ margin-right: 60px;
 margin-top: 20px;
 margin-bottom: 20px;
 
-
+ @media (max-width: 600px){
+    width: autopx;
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap-reverse;
+	justify-content:flex-start;
+	text-align:center;
+ }
 }
+
 
 .rej-1 { grid-area: 1 / 1 / 9 / 7;
 		background-image: url('../img/imagen.7.jpg');

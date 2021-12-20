@@ -89,6 +89,18 @@ body {
   color: white;
 }
 
+@media (max-width: 600px) {
+  #footer {
+    width: autopx;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+    text-align: center;
+  }
+}
+
 .bg-warning {
   background-color: #fbf9f8 !important;
 }
@@ -104,6 +116,32 @@ body {
   background-color: #8c8c8c;
   width: 1207px;
   height: 320px;
+}
+
+#img1 {
+  background-image: url("../img/_88A6156.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 1140px;
+  margin-left: 70px;
+}
+
+@media (max-width: 600px) {
+  #img1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+  }
 }
 
 .img-cont:hover {
@@ -134,6 +172,17 @@ body {
   font-weight: 10px;
 }
 
+@media (max-width: 600px) {
+  #cuatroimagenes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+}
+
 #grids.cuadricula {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -145,6 +194,17 @@ body {
   margin-right: 60px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  #grids.cuadricula {
+    width: autopx;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+    text-align: center;
+  }
 }
 
 .rej-1 {
