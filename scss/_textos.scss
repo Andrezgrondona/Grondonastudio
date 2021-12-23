@@ -1,0 +1,13 @@
+@mixin textosGrandes($fontsize, $letragris){
+	color:#55606a;
+	font-size:40px;
+	font-family:bebas Neue;
+	
+	}
+
+@mixin textosBlancos{
+    color:white;
+	font-size:40px;
+	font-family:bebas Neue;
+	
+}
