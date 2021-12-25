@@ -51,9 +51,7 @@ body{
 
 
  .t_1{
- 	font-family :'Bebas Neue', cursive!important;
-	font-size:40px;
-	color:white;
+ 	@include textosBlancos
  }
 		 
  .t_2{

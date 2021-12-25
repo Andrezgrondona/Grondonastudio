@@ -47,9 +47,9 @@ body {
 }
 
 #footer .t_1 {
-  font-family: "Bebas Neue", cursive !important;
-  font-size: 40px;
   color: white;
+  font-size: 40px;
+  font-family: bebas Neue;
 }
 
 #footer .t_2 {
