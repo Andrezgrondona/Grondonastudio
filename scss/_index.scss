@@ -15,31 +15,157 @@ body{
 	background-color: gray!important;
 }
 
+.bg-danger{
+	background-color: $fondobeige!important;
+	
+}
+
+.animate__backInRight{
+	animation-duration: 2s;
+}
+
+.animate__backInLeft{
+	animation-duration: 6s;
+}
+
+
 /*-------.--------.-----------.---------.-----.-----.*/
 
 /*index*/
 
-#banner{
-	background-image: url('../img/TopImage.jpg');
-	background-repeat: no-repeat;
+
+
+#banner_uno{
+	background-image: url('../img/bnw.jpeg');
 	background-position: center;
-	position: relative;
-	height: 400px;
+	background-size: cover;
+	height: 500px;
 	width: auto;
+
+.banner_texto{
+	display:flex;
+  	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:flex-end;
+	align-items:flex-end;
+ 	align-content:flex-end;
+ }
+
+ p{
+	font-family:Oswald;
+	font-size:40px;
+	color:white;
+	 }	
 }
 
-#fontex{
-	background-color: white !important;
-	height: 400px;
-	width: auto;
-	font-family :'Oswald', cursive!important;
+
+#banner_dos{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-around;
+	align-items:center;
+	align-content:space-between;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+.texto_ban_dos{
+	font-family:Oswald;
 	font-size:30px;
-
+	color:black;
 }
+
+
+@media (max-width: 600px){
+	 display:flex;
+	 flex-direction:column;
+	 flex-wrap:nowrap;
+	 justify-content:space-around;
+	 align-items:center;
+	 align-content:space-between;}
+}
+
+.titulo{
+	display:flex;
+  	flex-direction:row;
+  	flex-wrap:nowrap;
+  	justify-content:space-around;
+  	align-items:center;
+  	align-content:space-between;
+
+  p{
+  font-family:Oswald;
+	font-size:30px;
+	color:black;
+
+
+  }
+	
+}
+
+
+
+
+#cards{
+	display:flex;
+  	flex-direction:row;
+  	flex-wrap:nowrap;
+  	justify-content:space-around;
+  	align-items:center;
+  	align-content:space-between;
+  	margin-top: 20px;
+	margin-bottom: 20px;
+
+.card_uno{
+	p{
+	font-family:Nunito;
+	font-size:20px;
+	color:black;
+	}
+}
+
+.card_dos{
+p{
+	font-family:Nunito;
+	font-size:20px;
+	color:black;
+	}		
+}
+
+.card_tres{
+p{
+	font-family:Nunito;
+	font-size:20px;
+	color:black;
+	}
+	
+}
+
+ @media (max-width: 600px){
+ 	display:flex;
+	flex-direction:column;
+	flex-wrap:nowrap;
+	justify-content:space-around;
+	align-items:center;
+	align-content:space-between;
+
+p{
+	display:flex;
+	  flex-direction:row;
+	  flex-wrap:nowrap;
+	  justify-content:space-around;
+	  align-items:center;
+	  align-content:space-between;
+	 }
+ }	
+}
+
+
+
+
 
 #footer{
-	background-color: gray !important;
-	
+	background-color: $fondobeige !important;
 	height: 200px;
 	display:flex;
   	flex-direction:row;

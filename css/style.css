@@ -16,27 +16,136 @@ body {
   background-color: gray !important;
 }
 
+.bg-danger {
+  background-color: #ae8084 !important;
+}
+
+.animate__backInRight {
+  animation-duration: 2s;
+}
+
+.animate__backInLeft {
+  animation-duration: 6s;
+}
+
 /*-------.--------.-----------.---------.-----.-----.*/
 /*index*/
-#banner {
-  background-image: url("../img/TopImage.jpg");
-  background-repeat: no-repeat;
+#banner_uno {
+  background-image: url("../img/bnw.jpeg");
   background-position: center;
-  position: relative;
-  height: 400px;
+  background-size: cover;
+  height: 500px;
   width: auto;
 }
 
-#fontex {
-  background-color: white !important;
-  height: 400px;
-  width: auto;
-  font-family: "Oswald", cursive !important;
+#banner_uno .banner_texto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+#banner_uno p {
+  font-family: Oswald;
+  font-size: 40px;
+  color: white;
+}
+
+#banner_dos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#banner_dos .texto_ban_dos {
+  font-family: Oswald;
   font-size: 30px;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  #banner_dos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+  }
+}
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+}
+
+.titulo p {
+  font-family: Oswald;
+  font-size: 30px;
+  color: black;
+}
+
+#cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#cards .card_uno p {
+  font-family: Nunito;
+  font-size: 20px;
+  color: black;
+}
+
+#cards .card_dos p {
+  font-family: Nunito;
+  font-size: 20px;
+  color: black;
+}
+
+#cards .card_tres p {
+  font-family: Nunito;
+  font-size: 20px;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  #cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+  }
+  #cards p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+  }
 }
 
 #footer {
-  background-color: gray !important;
+  background-color: #ae8084 !important;
   height: 200px;
   display: flex;
   flex-direction: row;
