@@ -12,20 +12,20 @@ body {
 
 /*-------.--------.-----------.---------.-----.-----.*/
 /*nav bar*/
-.bg-light {
-  background-color: gray !important;
-}
-
 .bg-danger {
   background-color: #ae8084 !important;
 }
 
 .animate__backInRight {
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 
 .animate__backInLeft {
   animation-duration: 6s;
+}
+
+.animate__fadeIn {
+  animation-duration: 4s;
 }
 
 /*-------.--------.-----------.---------.-----.-----.*/
@@ -210,7 +210,7 @@ body {
 }
 
 .bg-warning {
-  background-color: #fbf9f8 !important;
+  background-color: #f9f9f9 !important;
 }
 
 /*index*/
@@ -220,8 +220,6 @@ body {
   color: #55606a;
   font-size: 40px;
   font-family: bebas Neue;
-  /*font-family :'Bebas Neue', cursive!important;
-	font-size: 40px;*/
 }
 
 .border-primary {
@@ -240,8 +238,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  width: 1140px;
-  margin-left: 70px;
+  width: auto;
 }
 
 @media (max-width: 600px) {
@@ -287,12 +284,13 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   align-content: center;
-  background-color: #fbf9f8;
+  align-content: center;
+  background-color: #7d7375;
+  width: auto;
   height: 250px;
-  width: 1140px;
 }
 
 #cuatroimagenes .img4 {
@@ -323,9 +321,7 @@ body {
   grid-template-rows: repeat(12, 1fr);
   grid-column-gap: 5px;
   grid-row-gap: 5px;
-  background-color: #fbf9f8;
-  margin-left: 60px;
-  margin-right: 60px;
+  background-color: #f9f9f9;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -418,17 +414,19 @@ body {
 /*proyectos*/
 /*-------.--------.-----------.---------.-----.-----.*/
 /*servicios*/
+.animate__bounceInLeft {
+  animation-duration: 4s;
+}
+
 #seccion_uno {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(11, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #fbf9f8;
+  background-color: #f9f9f9;
   height: 500px;
-  width: 1140px;
-  margin-left: 70px;
-  margin-right: 70px;
+  width: auto;
 }
 
 @media (max-width: 600px) {
@@ -444,18 +442,19 @@ body {
     width: 600px;
   }
   #seccion_uno .img_sec {
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
   }
   #seccion_uno .txt_sec {
-    height: 200px;
+    border-radius: 10px;
+    height: 100px;
     width: 300px;
   }
 }
 
 .img_sec {
   grid-area: 2 / 4 / 11 / 12;
-  background-image: url("../img/intre.jpg");
+  background-image: url("../img/arquite.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -466,7 +465,7 @@ body {
 .txt_sec {
   grid-area: 4 / 2 / 9 / 6;
   background-color: #eceaea;
-  height: 300px;
+  height: 250px;
   width: 300px;
   display: inline-flex;
   flex-direction: column;
@@ -474,6 +473,7 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+  border-radius: 10px;
 }
 
 .txt_sec p {
@@ -488,9 +488,7 @@ body {
   grid-column-gap: 4px;
   grid-row-gap: 6px;
   height: 1000px;
-  width: 1140px;
-  margin-left: 70px;
-  margin-right: 70px;
+  width: auto;
   background-color: #9b9b9b;
   background-position: center;
   background-repeat: no-repeat;
@@ -514,11 +512,11 @@ body {
     height: 0px;
     width: 0px;
   }
-  #servicios .div3 {
+  #servicios .div2 {
     height: 400px;
     width: 450px;
   }
-  #servicios .div2 {
+  #servicios .div3 {
     height: 400px;
     width: 450px;
   }
@@ -538,11 +536,21 @@ body {
     height: 400px;
     width: 450px;
   }
+  #servicios .div8 {
+    height: 400px;
+    width: auto;
+    border-radius: 0px;
+  }
 }
 
 .div1 {
   grid-area: 1 / 1 / 13 / 8;
-  background-color: #fbf9f8;
+  border-radius: 10px;
+  background-image: url("../img/boc.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
   height: 930px;
   width: 600px;
   margin-top: 30px;
@@ -550,26 +558,31 @@ body {
 
 .div2 {
   grid-area: 2 / 5 / 5 / 9;
+  border-radius: 10px;
   background-image: url("../img/_88A6156.jpg");
   height: 405px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
+  z-index: 4;
 }
 
 .div3 {
   grid-area: 5 / 5 / 8 / 9;
+  border-radius: 10px;
   background-image: url("../img/obra.jpg");
   height: 405px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
+  z-index: 4;
 }
 
 .div4 {
   grid-area: 3 / 3 / 4 / 6;
+  border-radius: 10px;
   background-color: #eceaea;
   height: 100px;
   display: inline-flex;
@@ -578,6 +591,7 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+  z-index: 5;
 }
 
 .div4 p {
@@ -587,6 +601,7 @@ body {
 
 .div5 {
   grid-area: 6 / 3 / 7 / 6;
+  border-radius: 10px;
   background-color: #eceaea;
   height: 100px;
   display: inline-flex;
@@ -595,6 +610,7 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+  z-index: 5;
 }
 
 .div5 p {
@@ -604,6 +620,7 @@ body {
 
 .div6 {
   grid-area: 9 / 3 / 10 / 6;
+  border-radius: 10px;
   background-color: #eceaea;
   height: 100px;
   display: inline-flex;
@@ -622,19 +639,23 @@ body {
 
 .div7 {
   grid-area: 8 / 5 / 11 / 9;
+  border-radius: 10px;
   background-image: url("../img/original-b737fc66ab10d880055154af054a2f87.jpg");
   height: 405px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
+  z-index: 6;
 }
 
 .div8 {
   grid-area: 2 / 10 / 11 / 13;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
   margin-top: 50px;
   background-color: #7b7979;
-  height: 600px;
+  height: 500px;
   width: auto;
   display: inline-flex;
   flex-direction: column;
@@ -652,6 +673,28 @@ body {
 /*servicios*/
 /*-------.--------.-----------.---------.-----.-----.*/
 /*nosotros*/
+#banner_nos {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: center;
+  background-image: url("../img/banner 1.jpg");
+  width: auto;
+  height: 400px;
+}
+
+#banner_nos .bn_tx1 {
+  font-family: 'Oswald';
+  font-size: 30px;
+  width: 400px;
+  height: 200px;
+  color: black;
+  margin-right: 160px;
+}
+
 #bannernos {
   background-image: url("../img/eng123.jpg");
   width: 1207px;
