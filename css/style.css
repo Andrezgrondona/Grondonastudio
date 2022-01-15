@@ -729,7 +729,7 @@ body {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  height: 100px;
+  height: 300px;
   width: 1000px;
   margin-left: 100px;
   margin-top: 40px;
@@ -737,20 +737,31 @@ body {
 
 @media (max-width: 600px) {
   #equipo {
-    margin-left: 0px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
-    height: 500px;
-    width: 600px;
-    margin-top: 40px;
+    width: auto;
+    height: auto;
+    padding-top: 100px;
   }
 }
 
 #equipo .arq {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 20px;
+}
+
+#equipo .arq_img {
   width: 120px;
   height: 120px;
   -moz-border-radius: 50%;
@@ -762,13 +773,19 @@ body {
   background-image: url("../img/arqcara.jpg");
 }
 
-@media (max-width: 600px) {
-  #equipo .arq {
-    margin-top: 40px;
-  }
+#equipo .ing {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 20px;
 }
 
-#equipo .ing {
+#equipo .ing_img {
   width: 120px;
   height: 120px;
   -moz-border-radius: 50%;
@@ -780,7 +797,19 @@ body {
   background-image: url("../img/ing.jpg");
 }
 
-#equipo .top {
+#equipo .int {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 20px;
+}
+
+#equipo .int_img {
   width: 120px;
   height: 120px;
   -moz-border-radius: 50%;
@@ -792,50 +821,6 @@ body {
   background-image: url("../img/top.jpg");
 }
 
-#equipo_tx {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  height: 100px;
-  width: 1000px;
-  margin-left: 100px;
-  text-align: center;
-}
-
-@media (max-width: 600px) {
-  #equipo_tx {
-    margin-left: 0px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    height: 500px;
-    width: 600px;
-    margin-top: 40px;
-    display: none;
-  }
-}
-
-#equipo_tx .arq_tx {
-  font-family: 'Oswald';
-  font-size: 20px;
-}
-
-#equipo_tx .ing_tx {
-  font-family: 'Oswald';
-  font-size: 20px;
-}
-
-#equipo_tx .top_tx {
-  font-family: 'Oswald';
-  font-size: 20px;
-}
-
 #nosotros {
   background-image: url("../img/bta.jpg");
   background-position: center;
@@ -844,39 +829,6 @@ body {
   height: 300px;
   width: auto;
   margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-}
-
-#nosotros .n_1 {
-  font-size: 15px;
-  height: 300px;
-  width: 400px;
-  text-align: center;
-  background-color: #cebea8;
-  border-radius: 50%;
-}
-
-#nosotros .n_2 {
-  font-size: 15px;
-  height: 200px;
-  width: 300px;
-  text-align: center;
-  background-color: #cebea8;
-  border-radius: 50%;
-}
-
-#nosotros .n_3 {
-  font-size: 15px;
-  height: 200px;
-  width: 300px;
-  text-align: center;
-  background-color: #cebea8;
-  border-radius: 50%;
 }
 
 /*nosotros*/
