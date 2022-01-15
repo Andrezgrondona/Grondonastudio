@@ -162,7 +162,7 @@ p{
 
 
 #footer{
-	background-color: $fondobeige !important;
+	background-color: $fondobeige;
 	height: 200px;
 	display:flex;
   	flex-direction:row;
@@ -714,47 +714,258 @@ p{
 
 #banner_nos{
 
-	display:flex;
+	  display:flex;
 	  display:flex;
 	  flex-direction:row;
 	  flex-wrap:wrap;
 	  justify-content:flex-end;
 	  align-items:flex-start;
 	  align-content:center;
-
-	background-image: url('../img/banner 1.jpg');
-	width: auto;
-	height: 400px;
+	  background-image: url('../img/banner 1.jpg');
+	  width: auto;
+	  height: 400px;
 
 .bn_tx1{
-font-family :'Oswald';
+	font-family :'Oswald';
 	font-size: 30px;
 	width:400px;
 	height: 200px;
 	color:black;
 	margin-right:160px;
+}
 
 }
 
 
 
+.tx_2{
+
+	display:flex;
+  	flex-direction:row;
+  	flex-wrap:wrap;
+  	justify-content:center;
+  	align-items:center;
+  	align-content:center;
+	font-family :'Oswald';
+	font-size: 30px;
+	
+	}
+
+.tx_3{
+	display:inline-flex;
+  	flex-direction:row;
+  	flex-wrap:wrap;
+  	justify-content:center;
+  	align-items:center;
+  	align-content:center;
+	font-family :'Bebas+Neue';
+	font-size: 20px;
+	margin-left:50px;
+	margin-right:50px;
+	height: 100px;
+	height: 100px;
+	text-align: justify;
+	
 }
 
+#equipo{
+
+	  display:inline-flex;
+	  flex-direction:row;
+	  flex-wrap:wrap;
+	  justify-content:space-around;
+	  align-items:center;
+	  align-content:center;
+	  height: 100px;
+	  width:1000px;
+	  margin-left:100px;
+	  margin-top:40px;
+
+	  @media (max-width: 600px){
+		margin-left: 0px;
+		display:flex;
+		flex-direction:column;
+		flex-wrap:wrap;
+		justify-content:space-around;
+		align-items:center;
+		align-content:center;
+	    height: 500px;
+	    width: 600px;
+	    margin-top:40px;
+	     }
+	  
+	
 
 
 
 
-
-
-
-
-#bannernos{
-	background-image: url('../img/eng123.jpg');
-	width: 1207px;
-	height: 320px;
+  .arq{
+  	 width: 120px;
+     height: 120px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-position: center;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-size: cover;
+     background-image: url('../img/arqcara.jpg');
+
+      @media (max-width: 600px){
+		
+	    margin-top:40px;
+	    
+	     }
+
+    
+
+
+  }
+
+  .ing{
+     width: 120px;
+     height: 120px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+     background-image: url('../img/ing.jpg');
+
+     
+  }
+
+  .top{
+     width: 120px;
+     height: 120px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+     background-image: url('../img/top.jpg');
+
+     
+  }
 }
+
+#equipo_tx{
+ display:inline-flex;
+	  flex-direction:row;
+	  flex-wrap:wrap;
+	  justify-content:space-around;
+	  align-items:center;
+	  align-content:center;
+	  height: 100px;
+	  width:1000px;
+	  margin-left:100px;
+	  text-align: center; 
+
+	  @media (max-width: 600px){
+		margin-left: 0px;
+		display:flex;
+		flex-direction:column;
+		flex-wrap:wrap;
+		justify-content:space-around;
+		align-items:center;
+		align-content:center;
+	    height: 500px;
+	    width: 600px;
+	    margin-top:40px;
+
+	    display:none;
+	     }
+
+	 
+
+
+
+.arq_tx{
+font-family :'Oswald';
+	font-size: 20px;
+
+
+}
+
+.ing_tx{
+font-family :'Oswald';
+	font-size: 20px;
+}
+
+.top_tx{
+font-family :'Oswald';
+	font-size: 20px;
+}
+	
+}
+
+
+
+#nosotros{
+	background-image: url('../img/bta.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:300px;
+	width:auto;
+	margin-top:40px;
+	
+display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items:center;
+  align-content:center;
+ 
+
+
+.n_1{
+	font-size: 15px;
+	height: 300px;
+	 width:400px;	
+	 text-align: center; 
+	 background-color:#cebea8;
+	  border-radius: 50%;
+
+}
+
+.n_2{
+font-size: 15px;
+	height: 200px;
+	 width:300px;
+	 text-align: center; 
+	  background-color:#cebea8;
+	   border-radius: 50%;	
+}
+
+.n_3{
+font-size: 15px;
+	height: 200px;
+	 width:300px;
+	 text-align: center; 
+	  background-color:#cebea8;	
+	   border-radius: 50%;
+}
+
+}
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
 
 /*nosotros*/
 
