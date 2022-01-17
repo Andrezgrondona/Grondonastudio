@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,300;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee:wght@200;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +15,7 @@ body {
 /*-------.--------.-----------.---------.-----.-----.*/
 /*nav bar*/
 .bg-danger {
-  background-color: #ae8084 !important;
+  background-color: #ffc53e !important;
 }
 
 .animate__backInRight {
@@ -30,6 +32,18 @@ body {
 
 /*-------.--------.-----------.---------.-----.-----.*/
 /*index*/
+.navbar-brand {
+  font-family: Staatliches;
+  font-size: 33px;
+  color: white;
+}
+
+.nav-item {
+  font-family: Nunito;
+  font-size: 18px;
+  color: white;
+}
+
 #banner_uno {
   background-image: url("../img/r2.png");
   background-position: center;
@@ -48,18 +62,55 @@ body {
 }
 
 #banner_uno p {
-  font-family: Oswald;
-  font-size: 40px;
+  font-family: Handlee;
+  font-size: 45px;
   color: white;
+}
+
+@media (max-width: 600px) {
+  #banner_uno p {
+    font-family: Handlee;
+    font-size: 25px;
+    animation: none;
+    text-aling: center;
+  }
 }
 
 #nuevos {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+#nuevos .t1_nuevo {
+  font-family: Staatliches;
+  font-size: 50px;
+  color: black;
+  animation-duration: 5s;
+}
+
+@media (max-width: 600px) {
+  #nuevos .t1_nuevo {
+    font-family: Handlee;
+    font-size: 40px;
+  }
+}
+
+#nuevos .t2_nuevo {
+  font-family: Staatliches;
+  font-size: 45px;
+  color: black;
+  animation-duration: 7s;
+}
+
+@media (max-width: 600px) {
+  #nuevos .t2_nuevo {
+    font-size: 40px;
+    animation: none;
+  }
 }
 
 #alameda142 {
@@ -72,20 +123,49 @@ body {
   grid-row-gap: 0px;
 }
 
+@media (max-width: 600px) {
+  #alameda142 {
+    width: auto;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+}
+
 #alameda142 .inf1 {
   grid-area: 1 / 1 / 4 / 6;
-  background-image: url("../img/r1.png");
+  background-image: url("../img/r4.png");
   background-position: center;
   background-size: cover;
   width: auto;
   height: auto;
 }
 
+@media (max-width: 600px) {
+  #alameda142 .inf1 {
+    width: 500px;
+    height: 200px;
+  }
+}
+
 #alameda142 .inf2 {
   grid-area: 4 / 1 / 7 / 3;
-  background-color: green;
+  background-image: url("../img/r6.png");
+  background-position: center;
+  background-size: cover;
   width: auto;
   height: auto;
+}
+
+@media (max-width: 600px) {
+  #alameda142 .inf2 {
+    width: 670px;
+    height: 200px;
+  }
 }
 
 #alameda142 .inf3 {
@@ -93,13 +173,46 @@ body {
   background-color: pink;
   width: auto;
   height: auto;
+  font-family: Handlee;
+  font-size: 16px;
+  background-color: #a89a78;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#alameda142 .inf3 .tx_al {
+  width: 380px;
+  height: 200px;
+}
+
+@media (max-width: 600px) {
+  #alameda142 .inf3 .tx_al {
+    width: 500px;
+    height: 120px;
+    font-family: Handlee;
+    font-size: 15px;
+  }
 }
 
 #alameda142 .inf4 {
   grid-area: 4 / 6 / 7 / 10;
-  background-color: yellow;
-  width: auto;
+  background-image: url("../img/r3.png");
+  background-position: center;
+  background-size: cover;
   height: auto;
+}
+
+@media (max-width: 600px) {
+  #alameda142 .inf4 {
+    width: 501px;
+    height: 160px;
+  }
 }
 
 #alameda142 .inf5 {
@@ -107,6 +220,25 @@ body {
   background-color: #a89a78;
   width: auto;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: Handlee;
+  font-size: 15px;
+}
+
+#alameda142 .inf5 .p_c {
+  font-size: 25px;
+}
+
+@media (max-width: 600px) {
+  #alameda142 .inf5 .p_c {
+    width: 469px;
+    height: 60px;
+  }
 }
 
 #alameda142 .inf6 {
@@ -116,34 +248,6 @@ body {
   background-size: cover;
   width: auto;
   height: auto;
-}
-
-#banner_dos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#banner_dos .texto_ban_dos {
-  font-family: Oswald;
-  font-size: 30px;
-  color: black;
-}
-
-@media (max-width: 600px) {
-  #banner_dos {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-between;
-  }
 }
 
 .titulo {
@@ -156,7 +260,7 @@ body {
 }
 
 .titulo p {
-  font-family: Oswald;
+  font-family: Handlee;
   font-size: 30px;
   color: black;
 }
@@ -210,7 +314,7 @@ body {
 }
 
 #footer {
-  background-color: #ae8084;
+  background-color: #ffc53e;
   height: 200px;
   display: flex;
   flex-direction: row;
@@ -221,7 +325,7 @@ body {
 }
 
 #footer .t_1 {
-  color: white;
+  color: black;
   font-size: 40px;
   font-family: bebas Neue;
 }
@@ -229,19 +333,19 @@ body {
 #footer .t_2 {
   font-family: "Nunito", cursive !important;
   font-size: 15px;
-  color: white;
+  color: black;
 }
 
 #footer .t_3 {
   font-family: "Bebas Neue", cursive !important;
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
 #footer .t_4 {
   font-family: "Nunito", cursive !important;
   font-size: 15px;
-  color: white;
+  color: black;
 }
 
 #footer .container_dos {
@@ -259,7 +363,7 @@ body {
   justify-content: flex-end;
   font-family: "Bebas Neue", cursive !important;
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
 @media (max-width: 600px) {
@@ -281,22 +385,6 @@ body {
 /*index*/
 /*-------.--------.-----------.---------.-----.-----.*/
 /*proyectos*/
-#texto-proy .palabra-uno {
-  color: #55606a;
-  font-size: 40px;
-  font-family: bebas Neue;
-}
-
-.border-primary {
-  color: pink !important;
-}
-
-#seccion {
-  background-color: #8c8c8c;
-  width: 1207px;
-  height: 320px;
-}
-
 #img1 {
   background-image: url("../img/_88A6156.png");
   background-position: center;
@@ -306,43 +394,38 @@ body {
   width: auto;
 }
 
-@media (max-width: 600px) {
-  #img1 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 450px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: flex-start;
-  }
-}
-
-.img-cont:hover {
-  transform: scale(1.2);
-  z-index: 2;
-}
-
 #texto-proy {
-  background-color: none;
-  margin-left: 70px;
-  margin-right: 70px;
-  padding-bottom: 30px;
-  margin-bottom: 20px;
-}
-
-#texto-proy p {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   align-items: center;
-  align-content: flex-start;
+  align-content: center;
+}
+
+#texto-proy .palabra-uno {
+  color: black;
+  font-size: 40px;
+  font-family: bebas Neue;
+}
+
+#texto-proy .palabra-dos {
+  font-family: Handlee;
+  font-size: 22px;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  #texto-proy .palabra-dos {
+    font-size: 18px;
+    width: autopx;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+    text-align: center;
+  }
 }
 
 #cuatroimagenes {
@@ -370,7 +453,7 @@ body {
 @media (max-width: 600px) {
   #cuatroimagenes {
     height: 1000px;
-    width: 300px;
+    width: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -473,16 +556,13 @@ body {
 }
 
 .txt-rej-dos {
-  font-size: 15px;
+  font-family: Handlee;
+  font-size: 17px;
 }
 
 /*proyectos*/
 /*-------.--------.-----------.---------.-----.-----.*/
 /*servicios*/
-.animate__bounceInLeft {
-  animation-duration: 4s;
-}
-
 #seccion_uno {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -529,7 +609,7 @@ body {
 
 .txt_sec {
   grid-area: 4 / 2 / 9 / 6;
-  background-color: #eceaea;
+  background-color: #a89a78;
   height: 250px;
   width: 300px;
   display: inline-flex;
@@ -542,8 +622,8 @@ body {
 }
 
 .txt_sec p {
-  font-family: 'Oswald';
-  font-size: 38px;
+  font-family: Staatliches;
+  font-size: 33px;
 }
 
 #servicios {
@@ -624,7 +704,7 @@ body {
 .div2 {
   grid-area: 2 / 5 / 5 / 9;
   border-radius: 10px;
-  background-image: url("../img/_88A6156.jpg");
+  background-image: url("../img/bnw.jpeg");
   height: 405px;
   background-position: center;
   background-repeat: no-repeat;
@@ -657,11 +737,12 @@ body {
   align-items: center;
   align-content: center;
   z-index: 5;
+  animation-duration: 5s;
 }
 
 .div4 p {
-  font-family: 'Oswald';
-  font-size: 28px;
+  font-family: Staatliches;
+  font-size: 33px;
 }
 
 .div5 {
@@ -676,11 +757,12 @@ body {
   align-items: center;
   align-content: center;
   z-index: 5;
+  animation-duration: 6s;
 }
 
 .div5 p {
-  font-family: 'Oswald';
-  font-size: 28px;
+  font-family: Staatliches;
+  font-size: 33px;
 }
 
 .div6 {
@@ -695,11 +777,13 @@ body {
   align-items: center;
   align-content: center;
   z-index: 100;
+  animation-duration: 7s;
+  text-align: center;
 }
 
 .div6 p {
-  font-family: 'Oswald';
-  font-size: 28px;
+  font-family: Staatliches;
+  font-size: 33px;
 }
 
 .div7 {
@@ -942,7 +1026,7 @@ body {
 }
 
 .form p {
-  color: white;
+  color: black;
   font-size: 40px;
   font-family: bebas Neue;
 }
