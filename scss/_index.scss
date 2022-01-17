@@ -38,7 +38,7 @@ body{
 
 
 #banner_uno{
-	background-image: url('../img/bnw.jpeg');
+	background-image: url('../img/r2.png');
 	background-position: center;
 	background-size: cover;
 	height: 500px;
@@ -59,6 +59,86 @@ body{
 	color:white;
 	 }	
 }
+
+#nuevos{
+	display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+	
+}
+
+
+#alameda142{
+	width: auto;
+	height: 600px;
+	display: grid;
+grid-template-columns: repeat(9, 1fr);
+grid-template-rows: repeat(6, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+.inf1 { grid-area: 1 / 1 / 4 / 6;
+	background-image: url('../img/r1.png');
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	height: auto;
+
+}
+
+.inf2 { grid-area:  4 / 1 / 7 / 3; 
+background-color: green;
+	width: auto;
+	height: auto;
+}
+
+
+.inf3 { grid-area:  4 / 3 / 7 / 6; 
+background-color: pink;
+	width: auto;
+	height: auto;
+}
+
+.inf4 { grid-area: 4 / 6 / 7 / 10;
+background-color: yellow;
+	width: auto;
+	height: auto;
+}
+
+.inf5 { grid-area: 1 / 6 / 4 / 8;  
+background-color: #a89a78;
+	width: auto;
+	height: auto;
+}
+
+.inf6 { grid-area: 1 / 8 / 4 / 10;
+background-image: url('../img/r5.png');
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	height: auto;
+} 
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
 
 
 #banner_dos{
