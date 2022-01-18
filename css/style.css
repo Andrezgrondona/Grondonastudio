@@ -230,6 +230,12 @@ body {
   font-size: 15px;
 }
 
+@media (max-width: 600px) {
+  #alameda142 .inf5 {
+    text-align: center;
+  }
+}
+
 #alameda142 .inf5 .p_c {
   font-size: 25px;
 }
@@ -238,6 +244,7 @@ body {
   #alameda142 .inf5 .p_c {
     width: 469px;
     height: 60px;
+    text-align: center;
   }
 }
 
@@ -1012,62 +1019,54 @@ body {
 /*-------.--------.-----------.---------.-----.-----.*/
 /*contacto*/
 #contacto {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: pink;
+  height: 1000px;
+  width: auto;
+}
+
+#contacto .f_1 {
+  grid-area: 1 / 1 / 7 / 13;
+  height: auto;
+  width: auto;
   background-image: url("../img/buisness.jpg");
-  height: 700px;
-  width: 1140px;
-  margin-left: 70px;
-  margin-right: 70px;
-  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-}
-
-@media (max-width: 600px) {
-  #contacto {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: flex-start;
-    margin-left: 0px;
-    height: 600px;
-    width: 590px;
-  }
-  #contacto p {
-    font-size: 20px;
-  }
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: unset;
-  align-content: center;
-  height: 500px;
-  width: 600px;
+  align-items: center;
+  align-content: flex-end;
+  font-family: 'Handlee';
+  font-size: 23px;
+  color: white;
 }
 
-.form p {
-  color: black;
-  font-size: 40px;
-  font-family: bebas Neue;
+#contacto .f_2 {
+  grid-area: 8 / 10 / 12 / 13;
+  height: auto;
+  width: auto;
+  background-color: red;
 }
 
-@media (max-width: 600px) {
-  .form {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-  }
+#contacto .f_3 {
+  grid-area: 8 / 5 / 12 / 9;
+  height: auto;
+  width: auto;
+  background-color: red;
+}
+
+#contacto .f_4 {
+  grid-area: 8 / 1 / 12 / 4;
+  height: auto;
+  width: auto;
+  background-color: red;
 }
 
 /*contacto*/
