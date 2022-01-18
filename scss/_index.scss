@@ -267,16 +267,28 @@ body{
   	margin-top: 20px;
 	margin-bottom: 20px;
 
+
+
 .card_uno{
+	&:hover{
+	transform: scale(1.3);
+	}
+
 	p{
 	font-family:Nunito;
 	font-size:20px;
 	color:black;
 	}
+
+
 }
 
 .card_dos{
-p{
+	&:hover{
+	transform: scale(1.3);
+	}
+
+	p{
 	font-family:Nunito;
 	font-size:20px;
 	color:black;
@@ -284,7 +296,11 @@ p{
 }
 
 .card_tres{
-p{
+	&:hover{
+	transform: scale(1.3);
+	}
+
+	p{
 	font-family:Nunito;
 	font-size:20px;
 	color:black;
@@ -560,10 +576,6 @@ font-family :'Nunito', cursive!important;
 /*-------.--------.-----------.---------.-----.-----.*/
 
 /*servicios*/
-
-
-
-
 
 #seccion_uno {
 	display: grid;
@@ -845,7 +857,6 @@ p{
 /*nosotros*/
 
 #banner_nos{
-
 	  display:flex;
 	  display:flex;
 	  flex-direction:row;
@@ -858,12 +869,19 @@ p{
 	  height: 400px;
 
 .bn_tx1{
-	font-family :'Oswald';
-	font-size: 30px;
+	font-family :'Nunito';
+	font-size: 35px;
 	width:400px;
 	height: 200px;
 	color:black;
 	margin-right:160px;
+
+@media (max-width: 600px){
+	width:300px;
+	height: 150px;
+	font-size: 20px;
+
+}
 }
 
 }
@@ -878,8 +896,7 @@ p{
   	justify-content:center;
   	align-items:center;
   	align-content:center;
-	font-family :'Oswald';
-	font-size: 30px;
+	@include textosNegros
 	
 	}
 
@@ -890,134 +907,126 @@ p{
   	justify-content:center;
   	align-items:center;
   	align-content:center;
-	font-family :'Bebas+Neue';
+	font-family :'Handlee';
 	font-size: 20px;
 	margin-left:50px;
 	margin-right:50px;
 	height: 100px;
-	height: 100px;
+	height: 200px;
 	text-align: justify;
 	
 }
 
 #equipo{
 
-	  display:inline-flex;
-	  flex-direction:row;
-	  flex-wrap:wrap;
-	  justify-content:space-around;
+	display:inline-flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+	align-content:center;
+	height: 300px;
+	width:1000px;
+	margin-left:100px;
+	margin-top:40px;
+
+@media (max-width: 600px){
+   
+	  display:flex;
+	  flex-direction:column;
+	  flex-wrap:nowrap;
+	  justify-content:space-between;
 	  align-items:center;
 	  align-content:center;
-	  height: 300px;
-	  width:1000px;
-	  margin-left:100px;
-	  margin-top:40px;
+	  width:auto;
+	  height: 1000px;
+	  padding-top:100px;
+	  
+	  margin-left:0px;
+	margin-right:0px;
 
-	  @media (max-width: 600px){
-   
-	display:flex;
-  flex-direction:column;
-  flex-wrap:nowrap;
-  justify-content:space-between;
-  align-items:center;
-  align-content:center;
-  width:auto;
-  height: auto;
-  padding-top:100px;
 
 
  }
 
-	 
-	  
-	
-
-
-
-
   .arq{
-  		display:flex;
-		  flex-direction:column;
-		  flex-wrap:wrap;
-		  justify-content:center;
-		  align-items:center;
-		  align-content:center;
-		  text-align: center; 
-		  font-family :'Oswald';
-			font-size: 20px;
-
-
-	    
-	     }
+  	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:center;
+    align-items:center;
+	align-content:center;
+	text-align: center; 
+	font-family :'Nunito';
+	font-size: 20px;	    
+	}
 
 .arq_img{
-	width: 120px;
+	 width: 120px;
      height: 120px;
      -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
      background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	 background-repeat: no-repeat;
+	 background-size: cover;
      background-image: url('../img/arqcara.jpg');
 
 	}
 
-	.ing{
-  		display:flex;
-  flex-direction:column;
-  flex-wrap:wrap;
-  justify-content:center;
-  align-items:center;
-  align-content:center;
-  text-align: center;
-  font-family :'Oswald';
-	font-size: 20px; 
-	    
-	     }
-
-	.ing_img{
-	width: 120px;
-     height: 120px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-     background-image: url('../img/ing.jpg');
-
+.ing{
+  	display:flex;
+  	flex-direction:column;
+  	flex-wrap:wrap;
+  	justify-content:center;
+  	align-items:center;
+  	align-content:center;
+  	text-align: center;
+  	font-family :'Nunito';
+	font-size: 20px;   
 	}
 
-	.int{
-  		display:flex;
-  flex-direction:column;
-  flex-wrap:wrap;
-  justify-content:center;
-  align-items:center;
-  align-content:center;
-  text-align: center; 
-  font-family :'Oswald';
-	font-size: 20px;
-	    
-	     }
-
-	.int_img{
+.ing_img{
 	width: 120px;
-     height: 120px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     background-position: center;
+    height: 120px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-     background-image: url('../img/top.jpg');
-
+    background-image: url('../img/ing.jpg');
 	}
- 
 
+.int{
+	  display:flex;
+	  flex-direction:column;
+	  flex-wrap:wrap;
+	  justify-content:center;
+	  align-items:center;
+	  align-content:center;
+	  text-align: center; 
+	  font-family :'Nunito';
+	  font-size: 20px;	    
+ }
+
+.int_img{
+	width: 120px;
+    height: 120px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-image: url('../img/top.jpg');
+	}
 }
 
+.arq_tx{
+ 	font-family :'Staatliches';
+	font-size: 30px;	
+}
 
 
 
