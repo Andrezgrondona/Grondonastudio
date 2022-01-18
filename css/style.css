@@ -861,6 +861,7 @@ body {
   height: 200px;
   color: black;
   margin-right: 160px;
+  animation-duration: 7s;
 }
 
 @media (max-width: 600px) {
@@ -1022,51 +1023,118 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  background-color: pink;
-  height: 1000px;
+  grid-column-gap: 5px;
+  grid-row-gap: 7px;
+  background-color: #e6d09f;
+  height: 600px;
   width: auto;
+}
+
+@media (max-width: 600px) {
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 1000px;
+    width: auto;
+  }
 }
 
 #contacto .f_1 {
   grid-area: 1 / 1 / 7 / 13;
   height: auto;
   width: auto;
-  background-image: url("../img/buisness.jpg");
+  background-image: url("../img/office-desk-banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  align-content: flex-end;
+  align-content: center;
   font-family: 'Handlee';
-  font-size: 23px;
-  color: white;
+  font-size: 22px;
+  color: black;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  #contacto .f_1 {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+  }
+}
+
+#contacto .f_1 p {
+  height: 100px;
+  width: 700px;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  #contacto .f_1 p {
+    height: 100px;
+    width: 400px;
+    margin-left: 50px;
+    align-content: center;
+  }
 }
 
 #contacto .f_2 {
-  grid-area: 8 / 10 / 12 / 13;
+  grid-area: 5 / 3 / 12 / 9;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
   height: auto;
   width: auto;
-  background-color: red;
+  background-color: #8c8775a6;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  #contacto .f_2 {
+    height: 300px;
+    width: 500px;
+  }
 }
 
 #contacto .f_3 {
-  grid-area: 8 / 5 / 12 / 9;
+  grid-area: 5 / 9 / 9 / 11;
   height: auto;
   width: auto;
-  background-color: red;
+  background-color: none;
 }
 
 #contacto .f_4 {
-  grid-area: 8 / 1 / 12 / 4;
+  grid-area: 9 / 9 / 12 / 11;
   height: auto;
   width: auto;
-  background-color: red;
+  background-color: #b7885f;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  font-family: 'Handlee';
+  font-size: 17px;
+}
+
+@media (max-width: 600px) {
+  #contacto .f_4 {
+    height: 150px;
+    width: 500px;
+    border-radius: 10px;
+  }
 }
 
 /*contacto*/
