@@ -126,7 +126,7 @@ body {
 @media (max-width: 600px) {
   #alameda142 {
     width: auto;
-    height: 1000px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
