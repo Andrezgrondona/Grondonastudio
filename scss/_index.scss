@@ -571,14 +571,26 @@ p{
 .div4{
   	height: 400px;
 	width: 450px;
+@media (max-width: 600px){
+ 	height: 110px;
+	width: 450px;
+  }
   }
 .div5{
   	height: 400px;
 	width: 450px;
+@media (max-width: 600px){
+ 	height: 110px;
+	width: 450px;
+  }
   }
 .div6{
   	height: 400px;
 	width: 450px;
+@media (max-width: 600px){
+ 	height: 110px;
+	width: 450px;
+  }
   }
  .div7{
   	height: 400px;
@@ -634,6 +646,9 @@ p{
   	align-content:center;
   	z-index:5;
   	animation-duration:5s;
+
+
+
 p{
 	font-family:Staatliches;
 	font-size:33px;		

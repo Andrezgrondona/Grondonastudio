@@ -695,14 +695,44 @@ body {
     height: 400px;
     width: 450px;
   }
+}
+
+@media (max-width: 600px) and (max-width: 600px) {
+  #servicios .div4 {
+    height: 110px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 600px) {
   #servicios .div5 {
     height: 400px;
     width: 450px;
   }
+}
+
+@media (max-width: 600px) and (max-width: 600px) {
+  #servicios .div5 {
+    height: 110px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 600px) {
   #servicios .div6 {
     height: 400px;
     width: 450px;
   }
+}
+
+@media (max-width: 600px) and (max-width: 600px) {
+  #servicios .div6 {
+    height: 110px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 600px) {
   #servicios .div7 {
     height: 400px;
     width: 450px;
