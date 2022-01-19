@@ -129,10 +129,12 @@ body {
     height: 1000px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: unset;
+    align-content: space-between;
     align-content: center;
+    background-color: white;
   }
 }
 
@@ -147,7 +149,7 @@ body {
 
 @media (max-width: 600px) {
   #alameda142 .inf1 {
-    width: 500px;
+    width: auto;
     height: 200px;
   }
 }
@@ -163,7 +165,8 @@ body {
 
 @media (max-width: 600px) {
   #alameda142 .inf2 {
-    width: 670px;
+    background-image: url("../img/r7.png");
+    width: auto;
     height: 200px;
   }
 }
@@ -193,10 +196,17 @@ body {
 
 @media (max-width: 600px) {
   #alameda142 .inf3 .tx_al {
-    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: auto;
     height: 120px;
     font-family: Handlee;
     font-size: 15px;
+    text-align: center;
   }
 }
 
@@ -210,8 +220,8 @@ body {
 
 @media (max-width: 600px) {
   #alameda142 .inf4 {
-    width: 501px;
-    height: 160px;
+    width: auto;
+    height: 200px;
   }
 }
 
@@ -233,6 +243,8 @@ body {
 @media (max-width: 600px) {
   #alameda142 .inf5 {
     text-align: center;
+    width: auto;
+    height: 300px;
   }
 }
 
@@ -242,7 +254,6 @@ body {
 
 @media (max-width: 600px) {
   #alameda142 .inf5 .p_c {
-    width: 469px;
     height: 60px;
     text-align: center;
   }

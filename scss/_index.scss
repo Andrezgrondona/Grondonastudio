@@ -100,11 +100,13 @@ p{
 	width: auto;
 	height: 1000px;
     display:flex;
-  	flex-direction:column;
-  	flex-wrap:wrap;
-  	justify-content:space-around;
-  	align-items:center;
+	flex-direction:column;
+	flex-wrap:nowrap;
+	justify-content:space-around;
+	align-items:unset;
+	align-content:space-between;
   	align-content:center;
+  	background-color:white;
  }
 .inf1 { grid-area: 1 / 1 / 4 / 6;
 	background-image: url('../img/r4.png');
@@ -113,19 +115,20 @@ p{
 	width: auto;
 	height: auto;
 @media (max-width: 600px){
-	width: 500px;
-	height: 200px;    
+	width: auto;
+	height: 200px;   
  }
 }
 .inf2 { grid-area:  4 / 1 / 7 / 3; 
 	background-image: url('../img/r6.png');
 	background-position: center;
-	background-size: cover;
+	background-size:cover;
 	width: auto;
 	height: auto;
 @media (max-width: 600px){
-	width: 670px;
-	height: 200px;    
+	background-image: url('../img/r7.png');
+	width:auto;
+	height: 200px;	
  }
 }
 .inf3 { grid-area:  4 / 3 / 7 / 6; 
@@ -147,10 +150,17 @@ p{
 	width: 380px;
 	height: 200px;	
 @media (max-width: 600px){
-	width: 500px;
+	display:flex;
+  	flex-direction:row;
+  	flex-wrap:wrap;
+  	justify-content:center;
+  	align-items:center;
+  	align-content:center;
+	width: auto;
 	height: 120px;
 	font-family:Handlee;
-	font-size:15px;    
+	font-size:15px;
+	text-align:center;   
  	}	
   }
 }
@@ -160,8 +170,9 @@ p{
 	background-size: cover;
 	height: auto;
 @media (max-width: 600px){
-	width: 501px;
-	height: 160px;    
+	width: auto;
+	height: 200px;
+	   
   }	
 }
 .inf5 { grid-area: 1 / 6 / 4 / 8;  
@@ -177,12 +188,14 @@ p{
 	font-family:Handlee;
 	font-size:15px;
 @media (max-width: 600px){
-	text-align:center;  
+	text-align:center;
+	width: auto;
+	height: 300px;  
  	}
 .p_c{
 	font-size:25px;
 @media (max-width: 600px){
-	width: 469px;
+	
 	height: 60px; 
 	text-align:center;  
  	}		
