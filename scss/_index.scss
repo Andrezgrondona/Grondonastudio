@@ -126,9 +126,11 @@ p{
 	width: auto;
 	height: auto;
 @media (max-width: 600px){
-	background-image: url('../img/r7.png');
-	width:auto;
-	height: 200px;	
+	width: auto;
+	height: 200px;
+	background-position: center;
+	background-size:cover;
+	background-image: url('../img/park.jpg');	
  }
 }
 .inf3 { grid-area:  4 / 3 / 7 / 6; 
