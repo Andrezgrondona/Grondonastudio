@@ -6,30 +6,20 @@
 body{
 	background-color: white;
 }
-
 /*-------.--------.-----------.---------.-----.-----.*/
-
 /*nav bar*/
-
-
 .bg-danger{
-	background-color: $fondobeige!important;
-	
+	background-color: $fondobeige!important;	
 }
-
 .animate__backInRight{
 	animation-duration: 3s;
 }
-
 .animate__backInLeft{
 	animation-duration: 6s;
 }
-
 .animate__fadeIn{
 	animation-duration: 4s;
 }
-
-
 /*-------.--------.-----------.---------.-----.-----.*/
 
 /*index*/
@@ -37,23 +27,19 @@ body{
 .navbar-brand{
 	font-family:Staatliches;
 	font-size:33px;
-	color:white;
-	
+	color:white;	
 }
-
 .nav-item{
 	font-family:Nunito;
 	font-size:18px;
 	color:white;	
 }
-
 #banner_uno{
 	background-image: url('../img/r2.png');
 	background-position: center;
 	background-size: cover;
 	height: 500px;
 	width: auto;
-
 .banner_texto{
 	display:flex;
   	flex-direction:column;
@@ -62,12 +48,10 @@ body{
 	align-items:flex-end;
  	align-content:flex-end;
  }
-
- p{
+p{
 	font-family:Handlee;
 	font-size:45px;
 	color:white;
-
 @media (max-width: 600px){
 	font-family:Handlee;
 	font-size:25px;
@@ -76,40 +60,34 @@ body{
  	}	
   }	
 }
-
 #nuevos{
 	display:flex;
 	flex-direction:column;
 	flex-wrap:wrap;
 	justify-content:center;
 	align-items:center;
-	align-content:center;
-	
+	align-content:center;	
 .t1_nuevo{
 	font-family:Staatliches;
 	font-size:50px;
 	color:black;
 	animation-duration:5s;
-
 @media (max-width: 600px){
 	font-family:Handlee;
 	font-size:40px;   
  }		
 }
-
 .t2_nuevo{
 	font-family:Staatliches;
 	font-size:45px;
 	color:black;
 	animation-duration:7s;	
-
 @media (max-width: 600px){
 	font-size:40px;
     animation:none;
    }		
   }
 }
-
 #alameda142{
 	width: auto;
 	height: 600px;
@@ -118,7 +96,6 @@ body{
 	grid-template-rows: repeat(6, 1fr);
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
-
 @media (max-width: 600px){
 	width: auto;
 	height: 1000px;
@@ -129,34 +106,28 @@ body{
   	align-items:center;
   	align-content:center;
  }
-
-
 .inf1 { grid-area: 1 / 1 / 4 / 6;
 	background-image: url('../img/r4.png');
 	background-position: center;
 	background-size: cover;
 	width: auto;
 	height: auto;
-
 @media (max-width: 600px){
 	width: 500px;
 	height: 200px;    
  }
 }
-
 .inf2 { grid-area:  4 / 1 / 7 / 3; 
 	background-image: url('../img/r6.png');
 	background-position: center;
 	background-size: cover;
 	width: auto;
 	height: auto;
-
 @media (max-width: 600px){
 	width: 670px;
 	height: 200px;    
  }
 }
-
 .inf3 { grid-area:  4 / 3 / 7 / 6; 
 	background-color: pink;
 	width: auto;
@@ -172,11 +143,9 @@ body{
 	justify-content:center;
 	align-items:center;
 	align-content:center;
-
 .tx_al{
 	width: 380px;
 	height: 200px;	
-
 @media (max-width: 600px){
 	width: 500px;
 	height: 120px;
@@ -185,19 +154,16 @@ body{
  	}	
   }
 }
-
 .inf4 { grid-area: 4 / 6 / 7 / 10;
 	background-image: url('../img/r3.png');
 	background-position: center;
 	background-size: cover;
 	height: auto;
-
 @media (max-width: 600px){
 	width: 501px;
 	height: 160px;    
   }	
 }
-
 .inf5 { grid-area: 1 / 6 / 4 / 8;  
 	background-color: #a89a78;
 	width: auto;
@@ -210,14 +176,11 @@ body{
 	align-content:center;
 	font-family:Handlee;
 	font-size:15px;
-
-	@media (max-width: 600px){
+@media (max-width: 600px){
 	text-align:center;  
  	}
-
 .p_c{
 	font-size:25px;
-
 @media (max-width: 600px){
 	width: 469px;
 	height: 60px; 
@@ -225,7 +188,6 @@ body{
  	}		
   }
 }
-
 .inf6 { grid-area: 1 / 8 / 4 / 10;
 	background-image: url('../img/r5.png');
 	background-position: center;
@@ -234,7 +196,6 @@ body{
 	height: auto;
   } 
 }
-
 .titulo{
 	display:flex;
   	flex-direction:row;
@@ -242,15 +203,12 @@ body{
   	justify-content:space-around;
   	align-items:center;
   	align-content:space-between;
-
   p{
 	font-family:Handlee;
 	font-size:30px;
 	color:black;
-  }
-	
+  }	
 }
-
 #cards{
 	display:flex;
   	flex-direction:row;
@@ -260,43 +218,36 @@ body{
   	align-content:space-between;
   	margin-top: 20px;
 	margin-bottom: 20px;
-
 .card_uno{
 	&:hover{
 	transform: scale(1.3);
 	}
-
 p{
 	font-family:Nunito;
 	font-size:20px;
 	color:black;
 	}
 }
-
 .card_dos{
 	&:hover{
 	transform: scale(1.3);
 	}
-
 p{
 	font-family:Nunito;
 	font-size:20px;
 	color:black;
 	}		
 }
-
 .card_tres{
 	&:hover{
 	transform: scale(1.3);
 	}
-
 p{
 	font-family:Nunito;
 	font-size:20px;
 	color:black;
 	}	
 }
-
 @media (max-width: 600px){
  	display:flex;
 	flex-direction:column;
@@ -304,7 +255,6 @@ p{
 	justify-content:space-around;
 	align-items:center;
 	align-content:space-between;
-
 p{
 	display:flex;
 	flex-direction:row;
@@ -315,7 +265,6 @@ p{
 	 }
    }	
 }
-
 #footer{
 	background-color: $fondobeige;
 	height: 200px;
@@ -325,17 +274,14 @@ p{
   	justify-content:space-around;
   	align-items:center;
  	align-content:center;
-
  .t_1{
  	@include textosNegros
- }
-		 
+ }		 
  .t_2{
  	font-family :'Nunito', cursive!important;
 	font-size:15px;
 	color:black;
  	 }
-
  .t_3{
  	font-family :'Bebas Neue', cursive!important;
 	font-size:20px;
@@ -347,7 +293,6 @@ p{
 	font-size:15px;
 	color:black;
  }
-
  .container_dos{
  	display:inline-flex;
   	flex-direction:column;
@@ -356,7 +301,6 @@ p{
   	align-items:stretch;
  	align-content:center;
  }
-
  .informacion{
  	display:flex;
   	flex-direction:column;
@@ -365,7 +309,6 @@ p{
 	font-size:20px;
 	color:black;
  }
-
  @media (max-width: 600px){
     width: autopx;
 	height: 560px;
@@ -376,7 +319,6 @@ p{
 	text-align:center;
    }
  }
-
 /*index*/
 
 /*-------.--------.-----------.---------.-----.-----.*/
@@ -391,7 +333,6 @@ p{
 	height: 300px;
 	width: auto;
 }
-
 #texto-proy{
 	 display:flex;
 	 flex-direction:column;
@@ -399,17 +340,14 @@ p{
 	 justify-content:flex-start;
 	 align-items:center;
 	 align-content:center;
-
 .palabra-uno{
 	@include textosNegros
-
 }
 
 .palabra-dos{
 	font-family:Handlee;
 	font-size:22px; 
 	text-align:center;
-
 @media (max-width: 600px){
 	font-size:18px; 
     width: autopx;
@@ -422,8 +360,6 @@ p{
  	}
   } 	
 }
-
-
 #cuatroimagenes{
 	  display:flex;
 	  flex-direction:row;
@@ -435,9 +371,6 @@ p{
 	  background-color:$fondogris;
 	  width:auto;
 	  height:250px;
-	
-
-
 .img4{
 	border-radius: 20px;
 	&:hover{
@@ -445,8 +378,7 @@ p{
 	z-index: 2;
  }
 }
-
- @media (max-width: 600px){
+@media (max-width: 600px){
  	height: 1000px;
 	width: auto;
     display:flex;
@@ -455,21 +387,17 @@ p{
   	justify-content:space-around;
   	align-items:center;
   	align-content:center;
-
  }
 }
-
 #grids.cuadricula {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(12, 1fr);
 	grid-column-gap: 5px;
 	grid-row-gap: 5px;
-	background-color: $fondoclaro;
-	
+	background-color: $fondoclaro;	
 	margin-top: 20px;
 	margin-bottom: 20px;
-
  @media (max-width: 600px){
     width: autopx;
 	display:flex;
@@ -479,8 +407,6 @@ p{
 	text-align:center;
  }
 }
-
-
 .rej-1 { grid-area: 1 / 1 / 9 / 7;
 	background-image: url('../img/imagen.7.jpg');
 	height: 405px; 
@@ -488,13 +414,10 @@ p{
 	background-repeat: no-repeat;
 	background-size: cover;
 		}
-
 .rej-2 { grid-area: 1 / 7 / 5 / 10; 
 	background-color: none;
 	height: 200px;
 	}
-
-
 .rej-3 { grid-area: 5 / 7 / 9 / 10; 
 	background-image: url('../img/imagen.4.jpg');
 	height: 405px; 
@@ -502,7 +425,6 @@ p{
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 200px;}
-
 .rej-4 { grid-area: 1 / 10 / 5 / 13; 
 	background-image: url('../img/imagen.1.png');
 	height: 405px; 
@@ -510,22 +432,18 @@ p{
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 200px;}
-
 .rej-5 { grid-area: 5 / 10 / 9 / 13; 
 	background-color: none;
 	height: 200px;}
-
 .rej-6 { grid-area: 9 / 7 / 13 / 13;
 	background-image: url('../img/r1.png');	
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 200px; }
-
 .rej-7 { grid-area: 9 / 3 / 13 / 7;
 	background-color: none;
 	height: 200px;; }
-
 .rej-8 { grid-area: 9 / 1 / 13 / 3;
 	background-image: url('../img/HGH.jpg');
 	height: 200px; 
@@ -533,16 +451,13 @@ p{
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 200px; }
-
 .txt-rej-uno{
 	font-size: 25px;
 }
-
 .txt-rej-dos{
 	font-family:Handlee;
 	font-size:17px; 
 }
-
 
 /*proyectos*/
 
@@ -559,9 +474,7 @@ p{
 	grid-row-gap: 0px;
 	background-color:$fondoclaro;
 	height: 500px;
-	width: auto;
-	
-
+	width: auto;	
 @media (max-width: 600px){
 	margin-left: 0px;
 	display:flex;
@@ -572,32 +485,25 @@ p{
 	align-content:center;
 	height: 500px;
 	width: 600px;
-
 .img_sec{
-
 	height: 300px;
 	width: 400px;
 }
-
 .txt_sec{
 	border-radius:10px;
 	height: 100px;
 	 width: 300px;
  	}
-
   }
 }
-
 .img_sec { grid-area: 2 / 4 / 11 / 12; 
 	background-image: url('../img/arquite.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 430px;
-	width: 855px;
-	
+	width: 855px;	
 }
-
 .txt_sec { grid-area: 4 / 2 / 9 / 6;
 	background-color: #a89a78;
 	height: 250px;
@@ -609,14 +515,11 @@ p{
   	align-items:center;
   	align-content:center;
   	border-radius:10px;
-
 p{
 	font-family:Staatliches;
 		font-size:33px;	
-	}
-	
+	}	
  }
-
 #servicios{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
@@ -629,7 +532,6 @@ p{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
 @media (max-width: 600px){
 	margin-left: 0px;
 	display:flex;
@@ -641,43 +543,34 @@ p{
   	justify-content:space-around;
   	align-items:center;
   	align-content:flex-start;
-
 .div1{
   	height: 0px;
 	width: 0px;
   }
-
 .div2{
   	height: 400px;
 	width: 450px;
-  }
- 
+  } 
 .div3{
   	height: 400px;
 	width: 450px;
   }
-
 .div4{
-
   	height: 400px;
 	width: 450px;
   }
-
 .div5{
   	height: 400px;
 	width: 450px;
   }
-
 .div6{
   	height: 400px;
 	width: 450px;
   }
-
  .div7{
   	height: 400px;
 	width: 450px;
   }
-
   .div8{
   	height: 400px;
 	width: auto;
@@ -685,21 +578,17 @@ p{
   	}
   }
 }
-
 .div1 { grid-area: 1 / 1 / 13 / 8;
 	border-radius:10px;
 	background-image:url('../img/boc.jpg');
-
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.5;
-
 	height: 930px;
 	width: 600px;
 	margin-top:30px;
  }
-
 .div2 { grid-area: 2 / 5 / 5 / 9;
 	border-radius:10px;
 	background-image: url('../img/bnw.jpeg');
@@ -710,7 +599,6 @@ p{
 	height: 250px;
 	z-index:4;
  }
-
 .div3 { grid-area: 5 / 5 / 8 / 9; 
 	border-radius:10px;
 	background-image: url('../img/obra.jpg');
@@ -721,7 +609,6 @@ p{
 	height: 250px;
 	z-index:4;
 }
-
 .div4 { grid-area: 3 / 3 / 4 / 6; 
 	border-radius:10px;
 	background-color: #eceaea;
@@ -734,12 +621,10 @@ p{
   	align-content:center;
   	z-index:5;
   	animation-duration:5s;
-
 p{
 	font-family:Staatliches;
-		font-size:33px;		
+	font-size:33px;		
 	}
-
 }
 .div5 { grid-area: 6 / 3 / 7 / 6; 
 	border-radius:10px;
@@ -753,13 +638,11 @@ p{
   	align-content:center;
   	z-index:5;
   	animation-duration:6s;
-
 p{
 	font-family:Staatliches;
 	font-size:33px;	
   }
 }
-
 .div6 { grid-area: 9 / 3 / 10 / 6;
 	border-radius:10px;
 	background-color: #eceaea;
@@ -775,10 +658,9 @@ p{
   	 text-align:center;
 p{
 	font-family:Staatliches;
-		font-size:33px;	
+	font-size:33px;	
 	}
 }
-
 .div7 { grid-area: 8 / 5 / 11 / 9; 
 	border-radius:10px;
 	background-image: url('../img/original-b737fc66ab10d880055154af054a2f87.jpg');
@@ -789,7 +671,6 @@ p{
 	height: 250px;
 	z-index: 6;
 }
-
 .div8 { grid-area: 2 / 10 / 11 / 13;
 
 	border-top-left-radius: 100px;
@@ -826,7 +707,6 @@ p{
 	background-image: url('../img/banner 1.jpg');
 	width: auto;
 	height: 400px;
-
 .bn_tx1{
 	font-family :'Nunito';
 	font-size: 35px;
@@ -835,7 +715,6 @@ p{
 	color:black;
 	margin-right:160px;
 	animation-duration:7s;
-
 @media (max-width: 600px){
 	width:300px;
 	height: 150px;
@@ -843,7 +722,6 @@ p{
 	}
   }
 }
-
 .tx_2{
 
 	display:flex;
@@ -854,7 +732,6 @@ p{
   	align-content:center;
 	@include textosNegros
 	}
-
 .tx_3{
 	display:inline-flex;
   	flex-direction:row;
@@ -870,7 +747,6 @@ p{
 	height: 200px;
 	text-align: justify;	
 }
-
 #equipo{
 	display:inline-flex;
 	flex-direction:row;
@@ -882,7 +758,6 @@ p{
 	width:1000px;
 	margin-left:100px;
 	margin-top:40px;
-
 @media (max-width: 600px){
 	  display:flex;
 	  flex-direction:column;
@@ -896,7 +771,6 @@ p{
 	  margin-left:0px;
 	  margin-right:0px;
  }
-
   .arq{
   	display:flex;
 	flex-direction:column;
@@ -908,7 +782,6 @@ p{
 	font-family :'Nunito';
 	font-size: 20px;	    
 	}
-
 .arq_img{
 	 width: 120px;
      height: 120px;
@@ -920,7 +793,6 @@ p{
 	 background-size: cover;
      background-image: url('../img/arqcara.jpg');
 	}
-
 .ing{
   	display:flex;
   	flex-direction:column;
@@ -932,7 +804,6 @@ p{
   	font-family :'Nunito';
 	font-size: 20px;   
 	}
-
 .ing_img{
 	width: 120px;
     height: 120px;
@@ -944,7 +815,6 @@ p{
 	background-size: cover;
     background-image: url('../img/ing.jpg');
 	}
-
 .int{
 	 display:flex;
 	 flex-direction:column;
@@ -956,7 +826,6 @@ p{
 	 font-family :'Nunito';
 	 font-size: 20px;	    
  }
-
 .int_img{
 	width: 120px;
     height: 120px;
@@ -969,12 +838,10 @@ p{
     background-image: url('../img/top.jpg');
 	}
 }
-
 .arq_tx{
  	font-family :'Staatliches';
 	font-size: 30px;	
 }
-
 #nosotros{
 background-image: url('../img/bta.jpg');
 	background-position: center;
@@ -984,7 +851,6 @@ background-image: url('../img/bta.jpg');
 	width:auto;
 	margin-top:40px;
 }
-
 /*nosotros*/
 
 /*-------.--------.-----------.---------.-----.-----.*/
@@ -1000,7 +866,6 @@ background-image: url('../img/bta.jpg');
 	background-color:#e6d09f;
 	height:600px;
 	width:auto;
-
 @media (max-width: 600px){
 	display:flex;
   	flex-direction:column;
@@ -1010,8 +875,7 @@ background-image: url('../img/bta.jpg');
   	align-content:center;
   	height:1000px;
 	width:auto;
-}
-
+	}
 .f_1 { grid-area:  1 / 1 / 7 / 13;  
 	height:auto;
 	width:auto;
@@ -1029,18 +893,15 @@ background-image: url('../img/bta.jpg');
 	font-size: 22px;
 	color:black;
 	align-items:center;
-
 @media (max-width: 600px){
 	height:300px;
 	width:500px;
 	border-radius:10px;
-}
-
+	}
 p{
 	height:100px;
 	width:700px;
 	align-items:center;	
-
 @media (max-width: 600px){
 	height:100px;
 	width:400px;
@@ -1049,7 +910,6 @@ p{
 	}
   }
 }
-
 .f_2 { grid-area:5 / 3 / 12 / 9;		
 	display:flex;
   	flex-direction:column;
@@ -1061,19 +921,16 @@ p{
 	width:auto;
 	background-color:#8c8775a6;
 	border-radius:10px;
-
 @media (max-width: 600px){
 	height:300px;
 	width:500px;;
 		}
 	}
-
 .f_3 { grid-area: 5 / 9 / 9 / 11; 
     height:auto;
 	width:auto;
 	background-color:none;
 	}
-
 .f_4 { grid-area: 9 / 9 / 12 / 11; 
 	height:auto;
 	width:auto;
@@ -1086,8 +943,7 @@ p{
 	align-content:center;
 	font-family :'Handlee';
 	font-size: 17px;
-
-	@media (max-width: 600px){
+@media (max-width: 600px){
 	height:150px;;
 	width:500px;
 	border-radius:10px;
