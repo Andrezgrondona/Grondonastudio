@@ -76,7 +76,7 @@ body {
   #banner_uno p {
     font-family: Nunito;
     font-size: 25px;
-    animation: none;
+    animation-duration: 5s;
     text-aling: center;
   }
 }
@@ -99,8 +99,9 @@ body {
 
 @media (max-width: 600px) {
   #nuevos .t1_nuevo {
-    font-family: Handlee;
+    font-family: Staatliches;
     font-size: 40px;
+    animation: none;
   }
 }
 

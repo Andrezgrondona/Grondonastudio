@@ -61,7 +61,7 @@ p{
 @media (max-width: 600px){
 	font-family:Nunito;
 	font-size:25px;
-	animation:none;
+	animation-duration: 5s;
     text-aling:center;
  	}	
   }	
@@ -78,9 +78,10 @@ p{
 	font-size:50px;
 	color:black;
 	animation-duration:5s;
-@media (max-width: 600px){
-	font-family:Handlee;
-	font-size:40px;   
+@media (max-width: 600px){	  
+	font-family:Staatliches;
+	font-size:40px; 
+	animation:none;
  }		
 }
 .t2_nuevo{
@@ -91,6 +92,7 @@ p{
 @media (max-width: 600px){
 	font-size:40px;
     animation:none;
+
    }		
   }
 }
