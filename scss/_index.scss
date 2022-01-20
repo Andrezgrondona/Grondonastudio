@@ -42,18 +42,24 @@ body{
 	width: auto;
 .banner_texto{
 	display:flex;
-  	flex-direction:column;
-	flex-wrap:wrap;
-	justify-content:flex-end;
-	align-items:flex-end;
- 	align-content:flex-end;
+  	flex-direction:row;
+  	flex-wrap:wrap;
+  	justify-content:flex-start;
+  	align-items:center;
+  	align-content:center;
+  	height: 100px;
+	width: 500px;
  }
 p{
-	font-family:Handlee;
-	font-size:45px;
+	font-family:Nunito;
+	font-size:30px;
 	color:white;
+	margin-top:200px;
+	margin-left:100px;
+	animation-duration: 5s;
+
 @media (max-width: 600px){
-	font-family:Handlee;
+	font-family:Nunito;
 	font-size:25px;
 	animation:none;
     text-aling:center;
@@ -128,16 +134,14 @@ p{
 @media (max-width: 600px){
 	width: auto;
 	height: 200px;
-	background-position: center;
-	background-size:cover;
 	background-image: url('../img/park.jpg');	
  }
 }
 .inf3 { grid-area:  4 / 3 / 7 / 6; 
-	background-color: pink;
+	background-color: none;
 	width: auto;
 	height: auto;
-	font-family:Handlee;
+	font-family:Nunito;
 	font-size:16px;
 	background-color: #a89a78;
 	width: auto;
@@ -150,7 +154,7 @@ p{
 	align-content:center;
 .tx_al{
 	width: 380px;
-	height: 200px;	
+	height: 200px;
 @media (max-width: 600px){
 	display:flex;
   	flex-direction:row;
@@ -187,7 +191,7 @@ p{
 	justify-content:center;
 	align-items:center;
 	align-content:center;
-	font-family:Handlee;
+	font-family:Nunito;
 	font-size:15px;
 @media (max-width: 600px){
 	text-align:center;
