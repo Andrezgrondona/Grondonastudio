@@ -71,6 +71,7 @@ body {
   margin-left: 100px;
   animation-duration: 5s;
   background-color: none;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
