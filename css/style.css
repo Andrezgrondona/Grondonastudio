@@ -60,7 +60,7 @@ body {
   align-items: center;
   align-content: center;
   height: 100px;
-  width: 500px;
+  width: 400px;
 }
 
 #banner_uno p {
@@ -70,12 +70,13 @@ body {
   margin-top: 200px;
   margin-left: 100px;
   animation-duration: 5s;
+  background-color: none;
 }
 
 @media (max-width: 600px) {
   #banner_uno p {
     font-family: Nunito;
-    font-size: 25px;
+    font-size: 20px;
     animation-duration: 5s;
     text-aling: center;
   }
